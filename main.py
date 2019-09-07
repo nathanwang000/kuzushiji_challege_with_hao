@@ -19,7 +19,7 @@ from sklearn.externals import joblib
 import random, string, os
 parser = argparse.ArgumentParser(description="opt")
 parser.add_argument('-o', type=str,
-                    help='optimizer', default='optimizers.Diff')
+                    help='optimizer', default='optimizers.AdaSGD')
 parser.add_argument('-seed', type=int,
                     help='random seed', default=42)
 parser.add_argument('-epoch', type=int,
