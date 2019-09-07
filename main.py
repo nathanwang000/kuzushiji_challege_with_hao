@@ -10,10 +10,10 @@ import torch.nn as nn
 import torchvision
 import torchvision.transforms as transforms
 
-import MTL_OPT.lib.optimizer as optimizers
-from MTL_OPT.lib.criterion import L2
-from MTL_OPT.lib.utils import AverageMeter, OptRecorder, random_string
-from MTL_OPT.lib.utils import random_split_dataset
+import lib.optimizer as optimizers
+from lib.criterion import L2
+from lib.utils import AverageMeter, OptRecorder, random_string
+from lib.utils import random_split_dataset
 import argparse, tqdm
 from sklearn.externals import joblib
 import random, string, os
